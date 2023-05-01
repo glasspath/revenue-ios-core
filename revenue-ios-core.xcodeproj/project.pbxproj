@@ -14,6 +14,7 @@
 		70414DCC29FD519700967F6A /* revenue_ios_coreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70414DCB29FD519700967F6A /* revenue_ios_coreTests.swift */; };
 		70414DCD29FD519700967F6A /* revenue_ios_core.h in Headers */ = {isa = PBXBuildFile; fileRef = 70414DBF29FD519700967F6A /* revenue_ios_core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70414DDD29FD539200967F6A /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 70414DDC29FD539200967F6A /* CodeScanner */; };
+		7058B4F32A003BFD00F82EC8 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 7058B4F22A003BFD00F82EC8 /* Introspect */; };
 		70AB100D29FFBB2B00DD2ADF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 70AB100B29FFBB2B00DD2ADF /* LICENSE */; };
 		70AB100E29FFBB2B00DD2ADF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 70AB100C29FFBB2B00DD2ADF /* README.md */; };
 		70AB10102A0016D300DD2ADF /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AB100F2A0016D300DD2ADF /* DateUtils.swift */; };
@@ -48,6 +49,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70414DDD29FD539200967F6A /* CodeScanner in Frameworks */,
+				7058B4F32A003BFD00F82EC8 /* Introspect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +72,7 @@
 				70414DBE29FD519700967F6A /* revenue-ios-core */,
 				70414DCA29FD519700967F6A /* revenue-ios-coreTests */,
 				70414DBD29FD519700967F6A /* Products */,
+				7058B4F12A003BFD00F82EC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +105,13 @@
 			path = "revenue-ios-coreTests";
 			sourceTree = "<group>";
 		};
+		7058B4F12A003BFD00F82EC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -132,6 +142,7 @@
 			name = "revenue-ios-core";
 			packageProductDependencies = (
 				70414DDC29FD539200967F6A /* CodeScanner */,
+				7058B4F22A003BFD00F82EC8 /* Introspect */,
 			);
 			productName = "revenue-ios-core";
 			productReference = 70414DBC29FD519700967F6A /* RevenueCore.framework */;
@@ -187,6 +198,7 @@
 			mainGroup = 70414DB229FD519700967F6A;
 			packageReferences = (
 				70414DDB29FD539200967F6A /* XCRemoteSwiftPackageReference "CodeScanner" */,
+				7058B4F02A003BC800F82EC8 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
 			);
 			productRefGroup = 70414DBD29FD519700967F6A /* Products */;
 			projectDirPath = "";
@@ -499,6 +511,14 @@
 				kind = branch;
 			};
 		};
+		7058B4F02A003BC800F82EC8 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -506,6 +526,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 70414DDB29FD539200967F6A /* XCRemoteSwiftPackageReference "CodeScanner" */;
 			productName = CodeScanner;
+		};
+		7058B4F22A003BFD00F82EC8 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7058B4F02A003BC800F82EC8 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
