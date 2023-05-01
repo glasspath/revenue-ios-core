@@ -25,7 +25,6 @@ import Foundation
 public class LineScanner: NSObject {
     
     var lastString = ""
-    public var stopped = false
     
     public func processData(content: Data?) {
 
@@ -70,7 +69,6 @@ public class LineScanner: NSObject {
     
     func reset() {
         lastString = ""
-        stopped = false
     }
     
     final public var lineReceived: ((_ line: String) -> Void)?
