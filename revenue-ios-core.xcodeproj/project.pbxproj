@@ -15,6 +15,7 @@
 		70414DCD29FD519700967F6A /* revenue_ios_core.h in Headers */ = {isa = PBXBuildFile; fileRef = 70414DBF29FD519700967F6A /* revenue_ios_core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70414DDD29FD539200967F6A /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 70414DDC29FD539200967F6A /* CodeScanner */; };
 		7058B4F32A003BFD00F82EC8 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 7058B4F22A003BFD00F82EC8 /* Introspect */; };
+		7086B5692A321406003A7AFE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7086B56B2A321406003A7AFE /* Localizable.strings */; };
 		70AB100D29FFBB2B00DD2ADF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 70AB100B29FFBB2B00DD2ADF /* LICENSE */; };
 		70AB100E29FFBB2B00DD2ADF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 70AB100C29FFBB2B00DD2ADF /* README.md */; };
 		70AB10102A0016D300DD2ADF /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AB100F2A0016D300DD2ADF /* DateUtils.swift */; };
@@ -38,6 +39,8 @@
 		70414DC029FD519700967F6A /* revenue_ios_core.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = revenue_ios_core.docc; sourceTree = "<group>"; };
 		70414DC629FD519700967F6A /* revenue-ios-coreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "revenue-ios-coreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70414DCB29FD519700967F6A /* revenue_ios_coreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = revenue_ios_coreTests.swift; sourceTree = "<group>"; };
+		7086B56A2A321406003A7AFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7086B56C2A321409003A7AFE /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		70AB100B29FFBB2B00DD2ADF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		70AB100C29FFBB2B00DD2ADF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		70AB100F2A0016D300DD2ADF /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
@@ -69,6 +72,7 @@
 			children = (
 				70AB100B29FFBB2B00DD2ADF /* LICENSE */,
 				70AB100C29FFBB2B00DD2ADF /* README.md */,
+				7086B56B2A321406003A7AFE /* Localizable.strings */,
 				70414DBE29FD519700967F6A /* revenue-ios-core */,
 				70414DCA29FD519700967F6A /* revenue-ios-coreTests */,
 				70414DBD29FD519700967F6A /* Products */,
@@ -193,8 +197,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 				nl,
+				Base,
 			);
 			mainGroup = 70414DB229FD519700967F6A;
 			packageReferences = (
@@ -217,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70AB100E29FFBB2B00DD2ADF /* README.md in Resources */,
+				7086B5692A321406003A7AFE /* Localizable.strings in Resources */,
 				70AB100D29FFBB2B00DD2ADF /* LICENSE in Resources */,
 				703629D929FEC011007C6DF2 /* Assets.xcassets in Resources */,
 			);
@@ -259,6 +264,18 @@
 			targetProxy = 70414DC829FD519700967F6A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7086B56B2A321406003A7AFE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7086B56A2A321406003A7AFE /* en */,
+				7086B56C2A321409003A7AFE /* nl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		70414DCE29FD519700967F6A /* Debug */ = {
