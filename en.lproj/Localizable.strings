@@ -25,7 +25,7 @@
 "start" = "Start";
 "hours" = "Hours";
 "miles" = "Miles";
-"hours_and_miles" = "Hours + Miles";
+"hours_and_miles" = "Hours & Miles";
 "ok" = "OK";
 "cancel" = "Cancel";
 "custom" = "Custom";
@@ -33,9 +33,9 @@
 "finish" = "Finish";
 "project" = "Project";
 "rate" = "Rate";
-"no_client_selected" = "No client selected";
-"no_project_selected" = "No project selected";
-"no_rate_selected" = "No rate selected";
+"no_client_selected" = "No Client selected";
+"no_project_selected" = "No Project selected";
+"no_rate_selected" = "No Rate selected";
 "store_to_sd" = "Store to SD";
 "load_from_sd" = "Load from SD";
 "search" = "Search";
@@ -45,7 +45,7 @@
 "start_tracking" = "Start Tracking";
 "hours_only" = "Hours only";
 "mileage_only" = "Mileage only";
-"hours_and_mileage" = "Hours and mileage";
+"hours_and_mileage" = "Hours and Mileage";
 "from" = "From";
 "to" = "to";
 "start_break_at" = "Start break at";
@@ -54,13 +54,13 @@
 "resume_dialog_text" = "Would you like to start a new registration or resume the existing?";
 "resume_dialog_new" = "New";
 "resume_dialog_resume" = "Resume";
-"project_name" = "Project name";
+"project_name" = "Project Name";
 "client" = "Client";
 "description" = "Description";
-"rate_name" = "Rate name";
-"client_name" = "Client name";
-"hour_rate" = "Hourly rate";
-"mileage_rate" = "Mileage rate";
+"rate_name" = "Rate Name";
+"client_name" = "Client Name";
+"hour_rate" = "Per Hour";
+"mileage_rate" = "Per Mile";
 "comments" = "Comments";
 "scan_code_activity_title" = "Scan QR Code";
 "registration_configurator_title" = "Properties";
@@ -71,9 +71,9 @@
 "select_client_title" = "Select a Client";
 "select_project_title" = "Select a Project";
 "select_rate_title" = "Select a Rate";
-"client_configurator_title" = "Client Properties";
-"project_configurator_title" = "Project Properties";
-"rate_configurator_title" = "Rate Properties";
+"client_configurator_title" = "Client Details";
+"project_configurator_title" = "Project Details";
+"rate_configurator_title" = "Rate Details";
 "show_coordinates_title" = "GPS Coordinates";
 "new_client_configurator_title" = "New Client";
 "new_project_configurator_title" = "New Project";
@@ -142,7 +142,7 @@
 "default_hours_comments_setting_description" = "Open when tracking hours";
 "default_mileage_comments_setting_text" = "Miles mode";
 "default_mileage_comments_setting_description" = "Open when tracking miles";
-"default_hours_mileage_comments_setting_text" = "Hours &amp; Miles mode";
+"default_hours_mileage_comments_setting_text" = "Hours & Miles mode";
 "default_hours_mileage_comments_setting_description" = "Open when tracking hours and miles";
 "pause" = "Break";
 "pause_start" = "Break starts at";
@@ -156,7 +156,7 @@
 "default_hours_pause_setting_description" = "Break automatically when tracking hours only";
 "default_mileage_pause_setting_text" = "Miles mode";
 "default_mileage_pause_setting_description" = "Break automatically when tracking miles only";
-"default_hours_mileage_pause_setting_text" = "Hours &amp; Miles mode";
+"default_hours_mileage_pause_setting_text" = "Hours & Miles mode";
 "default_hours_mileage_pause_setting_description" = "Break automatically when tracking hours and miles";
 "copy_comments_pause_setting_text" = "Copy comments";
 "copy_comments_pause_setting_description" = "Copy comments to new registration";
@@ -201,3 +201,9 @@
 "unit_kilometers" = "Kilometers";
 "other" = "Other";
 "item_removed_from_history" = "Item removed from history";
+
+"no_client_clear_selection" = "No Client (clear selection)";
+"no_project_clear_selection" = "No Project (clear selection)";
+"no_rate_clear_selection" = "No Rate (clear selection)";
+"new_client_no_company_name" = "New Client..";
+"done" = "Done";

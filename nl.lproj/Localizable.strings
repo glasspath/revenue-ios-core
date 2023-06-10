@@ -25,7 +25,7 @@
 "start" = "Start";
 "hours" = "Uren";
 "miles" = "Km";
-"hours_and_miles" = "Uren + Km";
+"hours_and_miles" = "Uren & Km";
 "ok" = "OK";
 "cancel" = "Annuleren";
 "custom" = "Aangepast";
@@ -33,9 +33,9 @@
 "finish" = "Voltooien";
 "project" = "Project";
 "rate" = "Tarief";
-"no_client_selected" = "Geen klant geselecteerd";
-"no_project_selected" = "Geen project geselecteerd";
-"no_rate_selected" = "Geen tarief geselecteerd";
+"no_client_selected" = "Geen Klant geselecteerd";
+"no_project_selected" = "Geen Project geselecteerd";
+"no_rate_selected" = "Geen Tarief geselecteerd";
 "store_to_sd" = "Op SD kaart opslaan";
 "load_from_sd" = "Vanaf SD kaart laden";
 "search" = "Zoeken";
@@ -45,7 +45,7 @@
 "start_tracking" = "Nieuwe Registratie";
 "hours_only" = "Alleen uren";
 "mileage_only" = "Alleen kilometers";
-"hours_and_mileage" = "Uren en kilometers";
+"hours_and_mileage" = "Uren en Kilometers";
 "from" = "Van";
 "to" = "tot";
 "start_break_at" = "Start pauze om";
@@ -59,8 +59,8 @@
 "description" = "Omschrijving";
 "rate_name" = "Tariefnaam";
 "client_name" = "Klantnaam";
-"hour_rate" = "Per uur";
-"mileage_rate" = "Per kilometer";
+"hour_rate" = "Per Uur";
+"mileage_rate" = "Per Kilometer";
 "comments" = "Opmerkingen";
 "scan_code_activity_title" = "Scan QR Code";
 "registration_configurator_title" = "Eigenschappen";
@@ -142,7 +142,7 @@
 "default_hours_comments_setting_description" = "Openen voor uren registraties";
 "default_mileage_comments_setting_text" = "Kilometers mode";
 "default_mileage_comments_setting_description" = "Openen voor kilometer registraties";
-"default_hours_mileage_comments_setting_text" = "Uren &amp; Kilometers mode";
+"default_hours_mileage_comments_setting_text" = "Uren & Kilometers mode";
 "default_hours_mileage_comments_setting_description" = "Openen voor uren/kilometer registraties";
 "pause" = "Pauze";
 "pause_start" = "Pauze start om";
@@ -156,7 +156,7 @@
 "default_hours_pause_setting_description" = "Uren registraties automatisch pauzeren";
 "default_mileage_pause_setting_text" = "Kilometers mode";
 "default_mileage_pause_setting_description" = "Kilometer registraties automatisch pauzeren";
-"default_hours_mileage_pause_setting_text" = "Uren &amp; Kilometers mode";
+"default_hours_mileage_pause_setting_text" = "Uren & Kilometers mode";
 "default_hours_mileage_pause_setting_description" = "Uren/kilometer registraties automatisch pauzeren";
 "copy_comments_pause_setting_text" = "Opmerkingen kopiëren";
 "copy_comments_pause_setting_description" = "Opmerkingen kopiëren naar nieuwe registratie";
@@ -201,3 +201,9 @@
 "unit_kilometers" = "Kilometers";
 "other" = "Ander";
 "item_removed_from_history" = "Item verwijderd uit geschiedenis";
+
+"no_client_clear_selection" = "Geen Klant (selectie wissen)";
+"no_project_clear_selection" = "Geen Project (selectie wissen)";
+"no_rate_clear_selection" = "Geen Tarief (selectie wissen)";
+"new_client_no_company_name" = "Nieuwe Klant..";
+"done" = "Gereed";
