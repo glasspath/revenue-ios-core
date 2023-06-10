@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		700A7A3429FD7A6300C6C605 /* LineScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700A7A3329FD7A6300C6C605 /* LineScanner.swift */; };
+		701F84BF2A349FC3009227DC /* Mailable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701F84BE2A349FC3009227DC /* Mailable.swift */; };
 		703629D929FEC011007C6DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 703629D829FEC011007C6DF2 /* Assets.xcassets */; };
 		70414DC129FD519700967F6A /* revenue_ios_core.docc in Sources */ = {isa = PBXBuildFile; fileRef = 70414DC029FD519700967F6A /* revenue_ios_core.docc */; };
 		70414DC729FD519700967F6A /* RevenueCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70414DBC29FD519700967F6A /* RevenueCore.framework */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		700A7A3329FD7A6300C6C605 /* LineScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineScanner.swift; sourceTree = "<group>"; };
+		701F84BE2A349FC3009227DC /* Mailable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mailable.swift; sourceTree = "<group>"; };
 		703629D829FEC011007C6DF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70414DBC29FD519700967F6A /* RevenueCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RevenueCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70414DBF29FD519700967F6A /* revenue_ios_core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = revenue_ios_core.h; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				70414DBF29FD519700967F6A /* revenue_ios_core.h */,
 				70AB100F2A0016D300DD2ADF /* DateUtils.swift */,
 				700A7A3329FD7A6300C6C605 /* LineScanner.swift */,
+				701F84BE2A349FC3009227DC /* Mailable.swift */,
 				703629D829FEC011007C6DF2 /* Assets.xcassets */,
 				70414DC029FD519700967F6A /* revenue_ios_core.docc */,
 			);
@@ -241,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701F84BF2A349FC3009227DC /* Mailable.swift in Sources */,
 				700A7A3429FD7A6300C6C605 /* LineScanner.swift in Sources */,
 				70AB10102A0016D300DD2ADF /* DateUtils.swift in Sources */,
 				70414DC129FD519700967F6A /* revenue_ios_core.docc in Sources */,
