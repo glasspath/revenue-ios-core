@@ -207,3 +207,6 @@
 "no_rate_clear_selection" = "No Rate (clear selection)";
 "new_client_no_company_name" = "New Client..";
 "done" = "Done";
+"discard_changes_warning" = "Are you sure you want to discard your changes?";
+"discard_changes" = "Discard Changes";
+"keep_editing" = "Keep Editing";

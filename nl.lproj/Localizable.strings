@@ -207,3 +207,6 @@
 "no_rate_clear_selection" = "Geen Tarief (selectie wissen)";
 "new_client_no_company_name" = "Nieuwe Klant..";
 "done" = "Gereed";
+"discard_changes_warning" = "Weet je zeker dat je de wijzigingen ongedaan wilt maken?";
+"discard_changes" = "Maak wijzigingen ongedaan";
+"keep_editing" = "Blijf bewerken";
