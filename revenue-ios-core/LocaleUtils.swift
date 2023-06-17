@@ -545,3 +545,24 @@ public enum SystemOfUnits: CaseIterable, Identifiable {
     }
 
 }
+
+public class LocaleUtils {
+
+    public static func getDefualtLocale() -> Locale {
+        return Locale.current
+    }
+    
+    public static func getCurrencyCodeForLocale(locale: Locale) -> CurrencyCode {
+         
+        let currency = locale.currencyCode!
+        for currencyCode in CurrencyCode.allCases {
+            if currencyCode.code() == currency {
+                return currencyCode
+            }
+        }
+        
+        return CurrencyCode.EUR
+        
+    }
+    
+}
