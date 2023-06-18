@@ -554,7 +554,7 @@ public class LocaleUtils {
     
     public static func getCurrencyCodeForLocale(locale: Locale) -> CurrencyCode {
          
-        let currency = locale.currencyCode!
+        let currency = locale.currencyCode
         for currencyCode in CurrencyCode.allCases {
             if currencyCode.code() == currency {
                 return currencyCode
@@ -562,6 +562,20 @@ public class LocaleUtils {
         }
         
         return CurrencyCode.EUR
+        
+    }
+    
+    public static func getSystemOfUnitsForLocale(locale: Locale) -> SystemOfUnits {
+    
+        let regionCode = locale.regionCode
+        if regionCode == "US"
+            || regionCode == "LR" // Liberia
+            || regionCode == "MM" // Myanmar
+        {
+            return SystemOfUnits.IMPERIAL
+        } else {
+            return SystemOfUnits.METRIC
+        }
         
     }
     
