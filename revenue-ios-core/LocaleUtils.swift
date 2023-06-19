@@ -553,7 +553,7 @@ public class LocaleUtils {
     }
     
     public static func getCurrencyCodeForLocale(locale: Locale) -> CurrencyCode {
-         
+        
         let currency = locale.currencyCode
         for currencyCode in CurrencyCode.allCases {
             if currencyCode.code() == currency {
@@ -565,8 +565,24 @@ public class LocaleUtils {
         
     }
     
-    public static func getSystemOfUnitsForLocale(locale: Locale) -> SystemOfUnits {
+    public static func getCurrencyCode(code: String?) -> CurrencyCode? {
+        
+        if code != nil {
+
+            for currencyCode in CurrencyCode.allCases {
+                if currencyCode.code() == code {
+                    return currencyCode
+                }
+            }
+
+        }
+
+        return nil
+        
+    }
     
+    public static func getSystemOfUnitsForLocale(locale: Locale) -> SystemOfUnits {
+        
         let regionCode = locale.regionCode
         if regionCode == "US"
             || regionCode == "LR" // Liberia
@@ -576,6 +592,22 @@ public class LocaleUtils {
         } else {
             return SystemOfUnits.METRIC
         }
+        
+    }
+    
+    public static func getSystemOfUnits(code: String?) -> SystemOfUnits? {
+        
+        if code != nil {
+
+            for systemOfUnits in SystemOfUnits.allCases {
+                if systemOfUnits.code() == code {
+                    return systemOfUnits
+                }
+            }
+
+        }
+
+        return nil
         
     }
     
