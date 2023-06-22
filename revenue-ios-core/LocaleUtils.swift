@@ -493,7 +493,7 @@ public enum CurrencyCode: CaseIterable, Identifiable {
         case .TZS: return "TSh"
         case .UAH: return "₴"
         case .UGX: return "USh"
-        case .USD: return "$"
+        case .USD: return "US$"
         case .UYU: return "$"
         case .UZS: return "soʻm"
         case .VES: return "Bs.S"
