@@ -201,6 +201,7 @@
 "unit_kilometers" = "Kilometers";
 "other" = "Other";
 "item_removed_from_history" = "Item removed from history";
+"suggested_actions" = "Suggested Actions";
 
 "no_client_clear_selection" = "No Client (clear selection)";
 "no_project_clear_selection" = "No Project (clear selection)";
