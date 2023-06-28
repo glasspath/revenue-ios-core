@@ -202,6 +202,7 @@
 "other" = "Other";
 "item_removed_from_history" = "Item removed from history";
 "suggested_actions" = "Suggested Actions";
+"get_started_caps" = "GET STARTED";
 
 "no_client_clear_selection" = "No Client (clear selection)";
 "no_project_clear_selection" = "No Project (clear selection)";

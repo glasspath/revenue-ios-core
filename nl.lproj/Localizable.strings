@@ -202,6 +202,7 @@
 "other" = "Ander";
 "item_removed_from_history" = "Item verwijderd uit geschiedenis";
 "suggested_actions" = "Voorgestelde Acties";
+"get_started_caps" = "AAN DE SLAG";
 
 "no_client_clear_selection" = "Geen Klant (selectie wissen)";
 "no_project_clear_selection" = "Geen Project (selectie wissen)";
