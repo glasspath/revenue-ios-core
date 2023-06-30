@@ -201,8 +201,14 @@
 "unit_kilometers" = "Kilometers";
 "other" = "Ander";
 "item_removed_from_history" = "Item verwijderd uit geschiedenis";
+"no_activities" = "Geen Activiteiten..";
 "suggested_actions" = "Voorgestelde Acties";
 "get_started_caps" = "AAN DE SLAG";
+"visit_glasspath_org_action_text" = "Glasspath.org";
+"visit_glasspath_org_action_description" = "Download de nieuwste Revenue voor Windows, Mac of Linux op glasspath.org";
+"sync_action_text" = "Synchroniseren";
+"sync_action_description1" = "Laad je Klanten, Projecten en tarieven uit de Revenue App op je desktop";
+"sync_action_description2" = "Zet je activiteiten over naar de Revenue App op je desktop";
 
 "no_client_clear_selection" = "Geen Klant (selectie wissen)";
 "no_project_clear_selection" = "Geen Project (selectie wissen)";

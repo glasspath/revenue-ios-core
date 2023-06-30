@@ -201,8 +201,14 @@
 "unit_kilometers" = "Kilometers";
 "other" = "Other";
 "item_removed_from_history" = "Item removed from history";
+"no_activities" = "No Activities..";
 "suggested_actions" = "Suggested Actions";
 "get_started_caps" = "GET STARTED";
+"visit_glasspath_org_action_text" = "Glasspath.org";
+"visit_glasspath_org_action_description" = "Get the latest Revenue for Windows, Mac or Linux from glasspath.org";
+"sync_action_text" = "Synchronize";
+"sync_action_description1" = "Load your Clients, Projects and Rates from the Revenue App on your desktop";
+"sync_action_description2" = "Transfer your activities to the Revenue App on your desktop";
 
 "no_client_clear_selection" = "No Client (clear selection)";
 "no_project_clear_selection" = "No Project (clear selection)";
