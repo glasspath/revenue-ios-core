@@ -209,6 +209,8 @@
 "sync_action_text" = "Synchronize";
 "sync_action_description1" = "Load your Clients, Projects and Rates from the Revenue App on your desktop";
 "sync_action_description2" = "Transfer your activities to the Revenue App on your desktop";
+"manage_action_text" = "Manage";
+"manage_action_description" = "Add Clients, Projects and Rates";
 
 "no_client_clear_selection" = "No Client (clear selection)";
 "no_project_clear_selection" = "No Project (clear selection)";

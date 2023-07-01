@@ -209,6 +209,8 @@
 "sync_action_text" = "Synchroniseren";
 "sync_action_description1" = "Laad je Klanten, Projecten en tarieven uit de Revenue App op je desktop";
 "sync_action_description2" = "Zet je activiteiten over naar de Revenue App op je desktop";
+"manage_action_text" = "Beheren";
+"manage_action_description" = "Voeg Klanten, Projecten en Tarieven toe";
 
 "no_client_clear_selection" = "Geen Klant (selectie wissen)";
 "no_project_clear_selection" = "Geen Project (selectie wissen)";
