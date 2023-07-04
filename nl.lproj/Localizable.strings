@@ -108,7 +108,9 @@
 "hour" = "uur";
 "minutes" = "minuten";
 "km" = "km";
+"mi" = "mi";
 "kms" = "Km\'s";
+"mis" = "Mijlen";
 "pairing" = "Koppelen..";
 "allow_sync_tcp_message" = "Binnenkomende gegevens accepteren?";
 "sync_send_busy_message" = "Bezig met verzenden van gegevens..";
