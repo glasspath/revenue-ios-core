@@ -552,7 +552,7 @@ public class LocaleUtils {
         return Locale.current
     }
     
-    public static func getCurrencyCodeForLocale(locale: Locale) -> CurrencyCode {
+    public static func getCurrencyCodeForLocale(locale: Locale) -> CurrencyCode? {
         
         let currency = locale.currencyCode
         for currencyCode in CurrencyCode.allCases {
@@ -561,7 +561,7 @@ public class LocaleUtils {
             }
         }
         
-        return CurrencyCode.EUR
+        return nil
         
     }
     
