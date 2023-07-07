@@ -213,6 +213,16 @@
 "sync_action_description2" = "Zet je activiteiten over naar de Revenue App op je desktop";
 "manage_action_text" = "Beheren";
 "manage_action_description" = "Voeg Klanten, Projecten en Tarieven toe";
+"configure_your_app_caps" = "CONFIGUREER JE APP";
+"regional_settings_action_text" = "Regionale instellingen";
+"regional_settings_action_description1" = "Je App staat ingesteld op ";
+"regional_settings_action_description2" = " en ";
+"break_action_text" = "Pauze";
+"break_action_description1" = "Automatisch pauzeren staat aan";
+"break_action_description2" = "Automatisch pauzeren staat uit";
+"comments_action_text" = "Opmerkingen";
+"comments_action_description1" = "Automatische opmerkingen staan aan";
+"comments_action_description2" = "Automatische opmerkingen staan uit";
 
 "no_client_clear_selection" = "Geen Klant (selectie wissen)";
 "no_project_clear_selection" = "Geen Project (selectie wissen)";

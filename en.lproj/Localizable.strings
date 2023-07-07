@@ -213,6 +213,16 @@
 "sync_action_description2" = "Transfer your activities to the Revenue App on your desktop";
 "manage_action_text" = "Manage";
 "manage_action_description" = "Add Clients, Projects and Rates";
+"configure_your_app_caps" = "CONFIGURE YOUR APP";
+"regional_settings_action_text" = "Regional Settings";
+"regional_settings_action_description1" = "Your App is setup for ";
+"regional_settings_action_description2" = " and ";
+"break_action_text" = "Break";
+"break_action_description1" = "Automatic break is on";
+"break_action_description2" = "Automatic break is off";
+"comments_action_text" = "Comments";
+"comments_action_description1" = "Automatic comments are on";
+"comments_action_description2" = "Automatic comments are off";
 
 "no_client_clear_selection" = "No Client (clear selection)";
 "no_project_clear_selection" = "No Project (clear selection)";
