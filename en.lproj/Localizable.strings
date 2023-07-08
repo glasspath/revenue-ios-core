@@ -223,6 +223,7 @@
 "comments_action_text" = "Comments";
 "comments_action_description1" = "Automatic comments are on";
 "comments_action_description2" = "Automatic comments are off";
+"about_caps" = "ABOUT";
 
 "no_client_clear_selection" = "No Client (clear selection)";
 "no_project_clear_selection" = "No Project (clear selection)";
