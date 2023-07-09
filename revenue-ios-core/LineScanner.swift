@@ -22,11 +22,11 @@
  */
 import Foundation
 
-public class LineScanner: NSObject {
+open class LineScanner: NSObject {
     
     var lastString = ""
     
-    public func processData(content: Data?) {
+    open func processData(content: Data?) {
 
         if lineReceived != nil {
 
@@ -67,7 +67,7 @@ public class LineScanner: NSObject {
 
     }
     
-    func reset() {
+    open func reset() {
         lastString = ""
     }
     
