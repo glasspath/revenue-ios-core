@@ -224,6 +224,9 @@
 "comments_action_description1" = "Automatische opmerkingen staan aan";
 "comments_action_description2" = "Automatische opmerkingen staan uit";
 "about_caps" = "OVER";
+"about_action_text" = "Revenue voor iOS";
+"about_action_description1" = "Versie ";
+"about_action_description2" = ", Releasedatum ";
 
 "no_client_clear_selection" = "Geen Klant (selectie wissen)";
 "no_project_clear_selection" = "Geen Project (selectie wissen)";
