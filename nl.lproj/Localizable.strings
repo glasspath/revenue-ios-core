@@ -227,6 +227,7 @@
 "about_action_text" = "Revenue voor iOS";
 "about_action_description1" = "Versie ";
 "about_action_description2" = ", Releasedatum ";
+"upgrade_action_text" = "Upgraden";
 
 "no_client_clear_selection" = "Geen Klant (selectie wissen)";
 "no_project_clear_selection" = "Geen Project (selectie wissen)";

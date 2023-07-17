@@ -227,6 +227,7 @@
 "about_action_text" = "Revenue for iOS";
 "about_action_description1" = "Version ";
 "about_action_description2" = ", Released ";
+"upgrade_action_text" = "Upgrade";
 
 "no_client_clear_selection" = "No Client (clear selection)";
 "no_project_clear_selection" = "No Project (clear selection)";
