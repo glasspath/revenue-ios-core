@@ -17,6 +17,7 @@
 		70414DDD29FD539200967F6A /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 70414DDC29FD539200967F6A /* CodeScanner */; };
 		704797312A3C7C0800B711C2 /* LocaleUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704797302A3C7C0800B711C2 /* LocaleUtils.swift */; };
 		70549B4B2A5B3FAC00E3D48D /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = 70549B4A2A5B3FAC00E3D48D /* SwiftUIIntrospect */; };
+		7079BB402AED2D95004D5E50 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7079BB3F2AED2D95004D5E50 /* CryptoSwift */; };
 		7086B5692A321406003A7AFE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7086B56B2A321406003A7AFE /* Localizable.strings */; };
 		70AB100D29FFBB2B00DD2ADF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 70AB100B29FFBB2B00DD2ADF /* LICENSE */; };
 		70AB100E29FFBB2B00DD2ADF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 70AB100C29FFBB2B00DD2ADF /* README.md */; };
@@ -57,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70414DDD29FD539200967F6A /* CodeScanner in Frameworks */,
+				7079BB402AED2D95004D5E50 /* CryptoSwift in Frameworks */,
 				70C9F1432A5B3668004D3AC7 /* CustomAlert in Frameworks */,
 				70549B4B2A5B3FAC00E3D48D /* SwiftUIIntrospect in Frameworks */,
 			);
@@ -156,6 +158,7 @@
 				70414DDC29FD539200967F6A /* CodeScanner */,
 				70C9F1422A5B3668004D3AC7 /* CustomAlert */,
 				70549B4A2A5B3FAC00E3D48D /* SwiftUIIntrospect */,
+				7079BB3F2AED2D95004D5E50 /* CryptoSwift */,
 			);
 			productName = "revenue-ios-core";
 			productReference = 70414DBC29FD519700967F6A /* RevenueCore.framework */;
@@ -214,6 +217,7 @@
 				70414DDB29FD539200967F6A /* XCRemoteSwiftPackageReference "CodeScanner" */,
 				704AAC942A5B16D400CA73DB /* XCRemoteSwiftPackageReference "CustomAlert" */,
 				70549B452A5B37BF00E3D48D /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+				7079BB3E2AED2D95004D5E50 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
 			);
 			productRefGroup = 70414DBD29FD519700967F6A /* Products */;
 			projectDirPath = "";
@@ -553,7 +557,15 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
 			requirement = {
-				branch = master;
+				branch = main;
+				kind = branch;
+			};
+		};
+		7079BB3E2AED2D95004D5E50 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
+			requirement = {
+				branch = main;
 				kind = branch;
 			};
 		};
@@ -569,6 +581,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 70549B452A5B37BF00E3D48D /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
 			productName = SwiftUIIntrospect;
+		};
+		7079BB3F2AED2D95004D5E50 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7079BB3E2AED2D95004D5E50 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
 		};
 		70C9F1422A5B3668004D3AC7 /* CustomAlert */ = {
 			isa = XCSwiftPackageProductDependency;
